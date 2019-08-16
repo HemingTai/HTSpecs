@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "HTSpecs"
+  spec.name         = "HTCrashReporter"
   spec.version      = "0.0.1"
   spec.summary      = "A Tool For Catching Common System Crash"
 
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  common system crash can be catched and uploaded to server
+  HTCrashReporter is a tool to catch common system crash and upload to server
                    DESC
 
   spec.homepage     = "https://github.com/HemingTai/HTSpecs.git"
