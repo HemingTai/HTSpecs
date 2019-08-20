@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   HTCrashReporter is a tool to catch common system crash and upload to server
                    DESC
 
-  spec.homepage     = "https://github.com/HemingTai/HTSpecs.git"
+  spec.homepage     = "https://github.com/HemingTai/HTCrashReporter.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/HemingTai/HTSpecs.git", :tag => spec.version }
+  spec.source       = { :git => "https://github.com/HemingTai/HTCrashReporter.git", :tag => spec.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
