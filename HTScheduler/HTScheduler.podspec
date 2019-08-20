@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint Middleware.podspec' to ensure this is a
+#  Be sure to run `pod spec lint HTScheduler.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -15,9 +15,9 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "Middleware"
+  spec.name         = "HTScheduler"
   spec.version      = "0.0.1"
-  spec.summary      = "Middleware To Test"
+  spec.summary      = "A Scheduler for ModuleProject"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
                       Middleware for ModuleProject
                       DESC
 
-  spec.homepage     = "https://github.com/HemingTai/HTSpecs.git"
+  spec.homepage     = "https://github.com/HemingTai/HTScheduler.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/HemingTai/HTSpecs.git", :tag => spec.version }
+  spec.source       = { :git => "https://github.com/HemingTai/HTScheduler.git", :tag => spec.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Middleware"
+  spec.source_files  = "HTScheduler"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
