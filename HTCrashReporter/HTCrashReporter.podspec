@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "HTCrashReporter"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.4"
   spec.summary      = "A Tool For Catching Common System Crash"
 
   # This description is used to generate tags and improve search results.
